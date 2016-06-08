@@ -1,0 +1,20 @@
+{
+  "name": "danilu-site",
+  "version": "1.0.0",
+  "description": "Pet project for my wife :-)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasdamiani/danilu-site.git"
+  },
+  "author": "Lucas Damiani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasdamiani/danilu-site/issues"
+  },
+  "homepage": "https://github.com/lucasdamiani/danilu-site#readme"
+}
