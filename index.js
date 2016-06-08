@@ -8,6 +8,6 @@ app.get('/', function (req, res) {
   res.send("<script>window.location.href = 'http://www.elo7.com.br/danilu-croche';</script>");
 });
 
-app.listen(3000, function () {
-  console.log('danilu-site app listening on port 3000!');
+app.listen(process.env.PORT || 3000, function () {
+  console.log("danilu-site server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
